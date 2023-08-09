@@ -1,4 +1,4 @@
-?   I'm leanring GitHub pages and jekyll.
+<!-- ? -->   I'm learning GitHub pages and jekyll.
 <!--
 **ckelly1100/ckelly1100** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
