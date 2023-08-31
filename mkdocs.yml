@@ -1,0 +1,80 @@
+site_name: ixia-c
+repo_url: https://github.com/open-traffic-generator/ixia-c
+repo_name: ixia-c
+edit_uri: ""
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  font:
+    text: Arial
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: ks-light
+      media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: ks-dark
+      media: "(prefers-color-scheme: dark)"
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/open-traffic-generator
+    - icon: fontawesome/brands/slack
+      link: https://ixia-c.slack.com
+# Page tree
+nav:
+  - Home: index.md
+  - User Guide:
+    - Intro: ug_intro.md
+    - Prerequisites: prerequisites.md
+    - Deployment: deployments.md
+    - Use cases: usecases.md
+    - Integrated environments: int_env.md
+    - Ixia-c tests: tests_ixia_c.md
+    - Ixia chassis/appliance tests: tests_chassis_app.md
+    - UHD 400 tests: tests_uhd400.md
+    - Limitations: limitations.md
+    - Troubleshooting: troubleshooting.md
+    - Releases: releases.md
+    - Licensing: licensing.md
+  - Quick Start:
+     - Intro: qsg_intro.md
+     - Prerequisites: prerequisites.md
+     - Deployment: deployments.md
+     - Sample test: sample_test.md
+  - Developer Guide:
+    - Intro: devGd_intro.md
+    - Common constructs: snappi-constructs.md
+    - Installing snappi: snappi_install.md
+    - Using snappi: hello-snappi.md
+  - Leftovers:
+    - News: news.md
+    - Contributing: contribute.md
+    - EULA: eula.md
+    - FAQ: faq.md
+    - Support: support.md
