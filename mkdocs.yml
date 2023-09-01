@@ -1,6 +1,6 @@
-site_name: ixia-c
+site_name: ckelly_mkdocs
 repo_url: https://github.com/open-traffic-generator/ixia-c
-repo_name: ixia-c
+repo_name: ckelly1100
 edit_uri: ""
 theme:
   name: material

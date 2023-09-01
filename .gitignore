@@ -1,0 +1,7 @@
+scratch
+env
+*.pcap
+*.log
+venv
+site
+.DS_Store
